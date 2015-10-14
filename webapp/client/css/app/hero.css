@@ -1,0 +1,38 @@
+@import '../framework/variables.css';
+
+.Hero {
+
+}
+.Hero-splash {
+	background: url('/img/front-image.jpg') no-repeat;
+	background-size: cover;
+	background-position: 50% 54%;
+	height: 180px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.Hero-motivational {
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	color:var(--white);
+	text-shadow: 3px 3px var(--black);
+}
+.Hero-subline {
+	font-size:1rem;
+}
+
+@media (--desktop) {
+
+	.Hero-splash {
+		height: 380px;
+	}
+	.Hero-motivational {
+		font-size: 3.44rem;
+		line-height: 3.44rem;
+	}
+	.Hero-subline {
+		font-size:1.5rem;
+		padding-top:20px;
+	}
+}

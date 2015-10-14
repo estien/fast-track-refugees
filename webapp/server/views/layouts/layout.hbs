@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{pageTitle title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='/css/framework.css?v={{packageVersion}}' />
+    <link rel='stylesheet' href='/css/app.css?v={{packageVersion}}' />
+  </head>
+  <body>
+    <div>
+      <header>
+        <div id="headerComponent"></div>
+      </header>
+      <main>
+        {{{body}}}
+      </main>     
+      {{> footer }} 
+    </div>
+  
+    {{> googleAnalytics }} 
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+    <script src="/js/app.js?v={{packageVersion}}"></script>
+  </body>
+</html>

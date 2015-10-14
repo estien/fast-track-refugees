@@ -1,0 +1,7 @@
+.Footer {
+	color:var(--white);
+	background-color: var(--black);
+}
+.Footer-heading {
+	text-transform: uppercase;
+}

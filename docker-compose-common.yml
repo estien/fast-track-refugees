@@ -1,0 +1,17 @@
+webapp:
+  build: ./webapp
+
+webfront:
+  build: ./webfront
+  ports:
+    - "80:80"
+
+db:
+  image: postgres
+  ports:
+   - "5432:5432"
+
+dbdata:
+  image: busybox
+  volumes:
+    - /dbdata

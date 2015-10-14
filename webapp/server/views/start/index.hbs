@@ -1,0 +1,78 @@
+{{!< layout}}
+<div class="StartPage">
+  <section class="Hero">
+    <div class="Hero-splash">
+
+    	<div class="Hero-searchContainer">
+        <div class="Hero-motivational u-alignCenter">
+          <span>Get settled in Norway, faster</span>
+        </div>
+    	</div>
+
+    </div>
+  </section>
+  
+  <section class="StartPage-fastTrackSection u-alignCenter">
+    <div class="StartPage-fastTrackContainer contentContainer">
+      <h2 class="h2 StartPage-fastTrackHeading ">Fast track for refugees</h2>
+      <p class="readable">A flexible and faster way to get settled in Norway.</p>
+      <p class="readable">The below figure illustrates the typical process that refugees coming to Norway is faced with. At a certain point a refugee can make a choice between self-organized housing ("selvbosetting") or to stick with the regular program. The former option is where the Fast Track Refugee Program can assist refugees that are ready to make it on their own.</p>
+      <img src="/img/process.svg" class="process process-horizontal"/>
+      <img src="/img/process-vertical.svg" class="process process-vertical"/>
+    </div>
+  </section>
+
+  <section class="StartPage-featuresSection">
+    <div class="StartPage-featuresContainer contentContainer u-alignCenter">
+      <h3 class="u-noMargin">Program comparison</h3>
+      <div class="facts-table">
+        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" style="margin:auto;">
+          <thead>
+            <tr>
+              <th class="mdl-data-table__cell--non-numeric u-alignCenter"></th>
+              <th class="center mdl-data-table__cell--non-numeric u-alignCenter">Regular Program</th>
+              <th class="center mdl-data-table__cell--non-numeric">Fast Track Refugee Program</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{#each salesPitches}}
+            <tr>
+              <th>{{feature}}</th>
+              <td class="center">{{program}}</td>
+              <td class="center">{{fastTrackProgram}}</td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+      </div>
+      <div class="facts-table--mobile">
+        <ul class="no-style">
+        {{#each salesPitches}}
+          <li class="separated-style">
+            <b>{{feature}}</b><br/>
+            <span>Program: {{program}}</span><br/>
+            <span>Fast Track Refugee Program: {{fastTrackProgram}}</span>
+
+          </li>
+        {{/each}}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="StartPage-featuresSection">
+    <div class="StartPage-featuresContainer contentContainer u-alignCenter">
+      <h3 class="u-noMargin">This can be realized</h3>
+      <p class="readable">Dear refugee, Norwegian company or passionate reader. Please be advised that this project and web site is currently only the resulting work of a 24 hour hackathon movement <a href="http://www.techfugees.com/">Techfugees</a>. At the time of writing this is not a realized project. Instead, the work serves to show how technology and new ideas can help on solving the challenges experienced by refugees and the supporting processes.</p>
+      <p class="readable">
+        <a href="/presentation.pdf">Check out our presentation</a>
+      </p>
+      <p>
+        <a href="mailto:tonjebjorvig@hotmail.com">Tonje Jørgensen</a>, 
+        <a href="mailto:kanstad40@gmail.com">Maria Kanstad</a>, 
+        <a href="mailto:christian.drablos@gmail.com">Christian Drabløs</a>, 
+        <a href="mailto:eirik@insj.as">Eirik Stien</a>
+      </p>
+    </div>
+  </section>
+</div>

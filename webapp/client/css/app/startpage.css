@@ -1,0 +1,77 @@
+@import '../framework/variables.css';
+
+.StartPage {
+  margin-top: -var(--header-height);
+}
+.StartPage-featuresSection {
+}
+.StartPage-featuresContainer,
+.StartPage-fastTrackContainer {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.StartPage-featuresHeading,
+.StartPage-fastTrackHeading  {
+	font-family: var(--font-main);
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.StartPage-featuresSubHeading {
+	font-family: var(--font-secondary);
+	text-transform: none;
+	font-size:1.4rem;
+	margin-top:0;
+}
+.StartPage-featureContainer {
+	padding:20px;
+}
+.StartPage-featureSignUpButton {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.img-process {
+	max-width: 90%;
+}
+.process {
+	max-width: 100%;
+	display: none;
+}
+.process-vertical {
+	display: block;
+}
+@media (--desktop) {
+	.StartPage {
+  	margin-top: -var(--header-height-desktop);
+	}
+	.StartPage-featuresHeading,
+	.StartPage-fastTrackHeading {
+		font-size:1.8rem;
+	}
+}
+td.left {
+	text-align: left;
+}
+td.center,
+th.center {
+	text-align: center !important;
+}
+.mdl-data-table td {
+	padding-top:17px;
+}
+.facts-table {
+	display: none;
+}
+@media (--desktop) {
+	.facts-table {
+		display: block;
+	}
+	.facts-table--mobile {
+		display: none;	
+	}
+	.process-horizontal {
+		display: block;
+	}
+	.process-vertical {
+		display: none;
+	}
+}

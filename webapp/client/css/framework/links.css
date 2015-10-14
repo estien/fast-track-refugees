@@ -1,0 +1,22 @@
+@import "variables.css";
+
+* {
+	font-family: 'Gotham', sans-serif;
+}
+a,
+a:link,
+a:active,
+a:visited,
+a:hover,
+a.link {
+	font-weight: 300;
+	text-decoration: none;
+	border-bottom: 1px solid var(--blue);
+}
+a.noUnderline,
+a.noUnderline:link,
+a.noUnderline:active,
+a.noUnderline:visited,
+a.noUnderline:hover {
+	border-bottom: none;
+}

@@ -1,0 +1,15 @@
+.u-alignCenter {
+	text-align: center;
+}
+.u-alignLeft {
+	text-align: left;
+}
+.u-alignRight {
+	text-align: right;
+}
+.u-noBorder {
+	border:none !important;
+}
+.u-noMargin {
+	margin: 0;
+}

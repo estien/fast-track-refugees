@@ -1,0 +1,11 @@
+.NotFoundPage {
+	padding:30px 0;
+}
+.NotFoundPage-image {
+	max-width: 80%;
+}
+@media (--desktop) {
+	.NotFoundPage {
+		padding:60px 0;
+	}	
+}

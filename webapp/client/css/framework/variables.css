@@ -1,0 +1,58 @@
+:root {
+
+  /*
+   * Colors
+   * ======================================================================== */
+
+
+  --white:                    rgba(255, 255, 255, 1);
+  --white--opacity50:         rgba(255, 255, 255, 0.8);
+  --red:                      rgba(171, 92, 87, 1);
+  --light-blue:               rgba(175, 231, 235, 1);
+  --turquise:                 rgba(75, 141, 145, 1);
+  --black:                    rgba(0, 0, 0, 1);
+  --blue:                     #0288D1;
+
+  --color-primary:            --light-blue;
+  --color-primary-dark:       --turquise;
+  --color-accent:             --red;
+  --color-primary-contrast:   --black;
+  --color-accent-contrast:    --white;
+  
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --base-font-size:           18px;
+  --font-main:                'Gotham', sans-serif;
+  --font-secondary:           'Sentinel', sans-serif;
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width:     1000px;
+  --header-height:          48px;
+  --header-height-desktop:  58px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  /*--screen-xs-min:         480px;  /* Extra small screen / phone */
+  /*--screen-sm-min:         768px;  /* Small screen / tablet */
+  /*--screen-md-min:         992px;  /* Medium screen / desktop */
+  /*--screen-lg-min:         1200px;  Large screen / wide desktop */
+
+  /*
+   * Animations
+   * ======================================================================== */
+
+
+  /*
+   * Media queries
+   * ======================================================================== */
+
+   @custom-media --desktop (min-width: 768px);
+
+}

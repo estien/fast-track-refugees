@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="450px" height="807px" viewBox="0 0 450 807" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup">
+            <text id="Arrival-to-Norway" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-weight="313" fill="#535353">
+                <tspan x="217" y="152.348">Arrival to Norway</tspan>
+            </text>
+            <path d="M128.5,45.5 L128.5,550.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M128.5,551.5 L77.4461069,602.553894" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M128.5,551.5 L180.002426,603.002426" id="Line-Copy" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-1" stroke="#979797" fill="#0288D1" sketch:type="MSShapeGroup" cx="129" cy="146" r="41"></circle>
+            <text id="Transit-reception--p" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-weight="313" fill="#535353">
+                <tspan x="217" y="308.174">Transit reception </tspan>
+                <tspan x="217" y="337.174">program</tspan>
+            </text>
+            <text id="Residence-permit--gr" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-weight="313" fill="#535353">
+                <tspan x="223" y="463">Residence permit </tspan>
+                <tspan x="223" y="492">granted</tspan>
+            </text>
+            <text id="Regular-program" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-weight="313" fill="#535353">
+                <tspan x="29" y="742">Regular</tspan>
+                <tspan x="29" y="771">program</tspan>
+            </text>
+            <text id="Fast-track--refugee-" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-weight="bold" fill="#535353">
+                <tspan x="266" y="621">Fast track </tspan>
+                <tspan x="266" y="650">refugee </tspan>
+                <tspan x="266" y="679">program</tspan>
+            </text>
+            <path d="M128.5,362.174 C155.105766,362.174 176.674,340.605766 176.674,314 C176.674,287.394234 155.105766,265.826 128.5,265.826 C101.894234,265.826 80.326,287.394234 80.326,314 C80.326,340.605766 101.894234,362.174 128.5,362.174 Z" id="Oval-1-Copy-2" stroke="#979797" fill="#CDDC39" sketch:type="MSShapeGroup"></path>
+            <path d="M77,685 C99.6436747,685 118,666.643675 118,644 C118,621.356325 99.6436747,603 77,603 C54.3563253,603 36,621.356325 36,644 C36,666.643675 54.3563253,685 77,685 Z" id="Oval-1-Copy-4" stroke="#979797" fill="#CDDC39" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-1-Copy" stroke="#979797" fill="#B3E5FC" sketch:type="MSShapeGroup" cx="181" cy="644" r="41"></circle>
+            <circle id="Oval-1-Copy-3" stroke="#979797" fill="#03A9F4" sketch:type="MSShapeGroup" cx="129" cy="472" r="41"></circle>
+            <text id="time-copy" sketch:type="MSTextLayer" font-family="Gotham" font-size="24" font-style="italic" font-weight="260" fill="#535353">
+                <tspan x="54" y="64">time</tspan>
+            </text>
+            <path d="M116,237 L116,212 L141,224.5 L116,237 Z" id="Triangle-1-Copy-3" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" transform="translate(128.500000, 224.500000) rotate(-270.000000) translate(-128.500000, -224.500000) "></path>
+            <path d="M116,410 L116,385 L141,397.5 L116,410 Z" id="Triangle-1-Copy-4" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" transform="translate(128.500000, 397.500000) rotate(-270.000000) translate(-128.500000, -397.500000) "></path>
+        </g>
+    </g>
+</svg>

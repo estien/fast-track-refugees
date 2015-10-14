@@ -1,0 +1,16 @@
+@import "variables.css";
+@import "../../../node_modules/normalize.css/normalize.css";
+@import "material.css";
+@import "material-techfugees.css";
+@import "utilities.css";
+@import "typography.css";
+@import "links.css";
+@import "lists.css";
+@import "layout.css";
+@import "errors.css";
+
+@import "components/Footer.css";
+
+* {
+	box-sizing:border-box;
+}
